@@ -1,0 +1,82 @@
+NOTAS:
+---------
+
+Nuevas etiquetas similares a los div:
+
+
+<header> Encabezado, logo, etc.
+<nav> Link(s) a otra pagina
+<article> Representa un componente de una pagina (ej. feed rss)
+<section> Seccion general dentro de un documento (se pueden meter acticles, o parrafos etc.)
+<aside> Contenido adicional a la web que va separado (tags, sponsors...)
+<footer> Auditoria, copyright....
+
+<main> Unica por pagina. No puede ser hija de las anteriores
+
+
+
+(Incompatibles con IE8)
+
+<article> vs <section>: Mejor articles dentro de sections.
+Siempre ambos con encabezado
+
+Extension: Headings map
+	html5gallery.com
+	responsive inspector
+	
+
+Formularios:
+-----------
+	<input type= "email", "url", "tel" / "number", date time, month....>
+
+	Validaciones:
+		disabled, max, maxlength, pattern, readonly, required, size...
+
+Multimedia:
+-----------
+	<audio>
+		Tabla de codex soportados!
+
+	<video>		
+
+<embed> Embeder algun plugin
+<canvas> "Lienzo" para poder 
+
+Compatibilidad:
+---------------
+modernizr.js
+caniuse.com
+
+
+Anchor:
+---------
+# lleva a una seccion identificada con el atributo id
+
+
+
+CSS:
+
+# id
+. clase
+
+etiqueta
+
+.[href].buttongroup{} todos los elementos que tengan la clase buttongroup contenidos en un href (predomina el mas restrictivo)
+	div.buton (solo modifica los div que ademas son de la clase buton)
+	div .button (modifica los botones de dentro de un div)
+	div > .butongroup (inmediatamente interior)
+
+position fixed, siempre poner donde esta fijado: pe:  botom: 0;
+
+
+googleapis.com/css
+
+
+
+
+
+
+
+
+
+

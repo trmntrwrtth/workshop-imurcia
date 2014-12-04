@@ -1,0 +1,117 @@
+
+
+body{
+	//background-color: blue;	
+}
+
+h1{
+	font-size: 25px;
+}
+
+.grid24{
+	width: 100%;
+}
+
+.grid16{
+	width: 50%;
+}
+
+.grid8{
+	width: 25%;
+}
+
+h3{
+	font-size: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+aside{
+	background-color: red;
+	width: 33%;
+}
+
+
+button{
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.buttonGroup{
+	padding-top: 20px;
+}
+
+.hidden{
+	display: none;
+}
+
+.indentado{
+	display: none;
+}
+
+main{
+	background-color: green;
+	width: 66%;
+	padding-top: 20px;
+	float: right;
+	padding-bottom: 120px;
+}
+
+main div{
+	padding: 20px;
+}
+
+header{
+	background-color: yellow;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(200,128,50, 0.5);
+	padding-bottom: 20px;
+}
+
+li{
+	list-style-type: none;
+}
+
+nav li{
+	padding-top: 10px;
+	width: 25%;
+	text-align: center;
+}
+
+nav li:hover {
+	background-color: #bada55;
+}
+
+//media query. A partir de 480 cambiara la maquetacion.
+//pero hay algo que falla...
+
+@media (max-width: 480px){
+	aside{
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding-left: 0;
+		padding-bottom: 120px;
+	}
+}
+
+
+article{
+	background-color: blue;
+}
+
+
